@@ -1,0 +1,235 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/***************** fonts *******************/
+
+body {
+  padding: 40px;
+  margin: 16px;
+  background-color: rgb(201, 130, 180);
+}
+
+main {
+  padding: 16px 0;
+  margin: 5vw 5vw 8vw 5vw;
+  background: radial-gradient(#ffc1ff, #ff9be6, #ff9fbc, rgb(201, 130, 180), rgb(201, 130, 180), rgb(201, 130, 180));
+  width: auto;
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+p {
+  margin-block: 1rem 1rem;
+  color: rgb(104, 4, 98);
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px 0 20px 0;
+}
+
+nav {
+  color: #8e128e;
+}
+
+a:-webkit-any-link {
+  color: #a8368c;
+  font-size: 18px;
+}
+
+dt {
+  display: block;
+  unicode-bidi: isolate;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 20;
+  margin-bottom: 4px;
+  padding-bottom: 5px;
+  color: rgb(96, 18, 125);
+  margin-top: 20px;
+}
+
+dl {
+  color: rgb(255, 182, 255);
+}
+
+img {
+  margin-top: 30px;
+}
+
+/* Page-specific heading styles */
+.indexx h1 {
+  color: #8300af;
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  text-shadow: 2px 2px #2b0339;
+}
+.indexx h2 {
+  color: #a41dff;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  margin-top: 100px;
+  text-shadow: 2px 2px #2b0339;
+}
+
+.indexx p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.facts {
+  border: 3px solid #a41dff;
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 10px;
+  background-color: rgba(255, 193, 255, 0.2);
+}
+
+.gallerii h2 {
+  color: #b352c0;
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  text-shadow: 2px 2px #2b0339;
+}
+
+.gallerii p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.code-img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.vand-img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.motherboard-img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.komponenterr h1 {
+  color: #8300af;
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  text-shadow: 2px 2px #2b0339;
+}
+
+.komponenterr h2 {
+  color: #a41dff;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  margin-top: 60px;
+  text-shadow: 2px 2px #2b0339;
+}
+
+.køling {
+  margin-bottom: 18px;
+}
+
+.komponenterr h3 {
+  color: #a8368c;
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.komponenterr p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.mincomputerr h1 {
+  color: #8300af;
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  text-shadow: 2px 2px #2b0339;
+}
+
+.mincomputerr h2 {
+  color: #a41dff;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  margin-top: 60px;
+  text-shadow: 2px 2px #2b0339;
+}
+
+.mincomputerr p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.operativsystemerr h1 {
+  color: #8300af;
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  text-shadow: 2px 2px #2b0339;
+  margin-bottom: 50px;
+}
+.operativsystemerr h2 {
+  color: #a41dff;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  margin-top: 25px;
+  text-shadow: 2px 2px #2b0339;
+}
+
+.chip-img {
+  margin-bottom: 20px;
+}
+
+.operativsystemerr p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+/***************** farver *******************/
+.color1 {
+  color: rgb(105, 55, 128);
+}
+
+.color2 {
+  color: rgb(177, 60, 159);
+}
+
+.color3 {
+  color: rgb(234, 140, 195);
+}
+
+.color4 {
+  color: rgb(92, 26, 89);
+}
+
+.color5 {
+  color: rgb(86, 48, 84);
+}
